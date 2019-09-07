@@ -171,18 +171,29 @@ http status : 404
 ```
 
 # 빌드 및 실행 방법
- 1. https://drive.google.com/drive/folders/1rk377wCzRdE_8vXR4Bdj-_cy-n9fY5n4  에서 파일을 내려 받는다.
+ 1. [소스다운로드](https://drive.google.com/drive/folders/1rk377wCzRdE_8vXR4Bdj-_cy-n9fY5n4) 에서 파일을 내려 받는다.
  2. 로컬 db 셋팅을 한다. (테이블 생성 정보, 데이터 insert 스크립트 "DB_setup" 테이블 참조)
  3. application.properties 에 들어가서 spring.datasource.* 부분을 테스트환경의 로컬정보에 맞는 값으로 변경한다. 
  4. STS 기준으로 Boot Dashboard에서 서버 기동버튼을 클릭한다.
  
- Q1. test url : http://localhost:8080/praticeNo1
- 
- Q2. test url : http://localhost:8080/praticeNo2
- 
- Q3. test url : http://localhost:8080/praticeNo3
- 
- Q4. test url : http://localhost:8080/praticeNo4
- *postman 실행 > post방식으로 선택 변경 > url 입력 > 파라미터 Body에 {"brName":"관리지점"} 입력 > send
+ 테스트 방법
+- Q1. http://localhost:8080/praticeNo1 호출
+- Q2. http://localhost:8080/praticeNo2 호출
+- Q3. http://localhost:8080/praticeNo3 호출
+- Q4. http://localhost:8080/praticeNo4 호출
+postman 실행 > post방식으로 선택 변경 > url 입력 > 파라미터 Body에 {"brName":"관리지점"} 입력 > send
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
